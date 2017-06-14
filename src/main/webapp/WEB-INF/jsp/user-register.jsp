@@ -4,8 +4,13 @@
 <%@ include file="../layout/taglib.jsp" %>
 
 <form:form commandName="user" cssClass="form-horizontal registrationForm">
+
+	<div class="alert alert-info">
+	 	Didn't find your favourite blog? Register and submit a missing blog.
+	 	Otherwise you don't have to register.
+	</div>
 	
-	<c:if test="${param.success eq true}">
+	<c:if test="${success eq true}">
 		<div class="alert alert-success">Registration successfull!</div>
 	</c:if>
 
