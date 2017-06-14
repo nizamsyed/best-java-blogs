@@ -32,4 +32,15 @@
 				</tr>
 			</c:forEach>
 		</tbody>
+		<!-- <tbody>
+		<tr class="loadNextRow">
+			<td class="loadNextColumn">
+				<div style="text-align: center">
+					<strong>
+						<a class="loadButton" href="?page=1">load next 10 items</a>			
+					</strong>
+				</div>
+			</td>
+		</tr>
+		</tbody> -->
 	</table>
